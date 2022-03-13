@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codewars-Challenge-Tests", "Codewars-Challenge-Tests\Codewars-Challenge-Tests.csproj", "{C994FE83-0DFE-4361-9C20-830E120EFB01}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codewars-Challenges", "Codewars-Challenges\Codewars-Challenges.csproj", "{C9239CFB-83E3-4AEC-BA87-4E315865A2D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{C994FE83-0DFE-4361-9C20-830E120EFB01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C994FE83-0DFE-4361-9C20-830E120EFB01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C994FE83-0DFE-4361-9C20-830E120EFB01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9239CFB-83E3-4AEC-BA87-4E315865A2D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9239CFB-83E3-4AEC-BA87-4E315865A2D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9239CFB-83E3-4AEC-BA87-4E315865A2D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9239CFB-83E3-4AEC-BA87-4E315865A2D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
