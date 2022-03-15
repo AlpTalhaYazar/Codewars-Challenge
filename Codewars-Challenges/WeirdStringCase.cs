@@ -31,4 +31,27 @@ public class WeirdStringCase
     
         return builder.ToString();
     }
+    
+    public static string ToWeirdCaseSecond(string s, bool shouldUpper = true)
+    {
+        return ToWeirdCaseSecondHelper(new StringBuilder(), s, true).ToString();
+    }
+
+    public static StringBuilder ToWeirdCaseSecondHelper(StringBuilder builder, string s, bool shouldUpper = true)
+    {
+        if (s.Length == 0)
+            return builder;
+
+        var isAlphabetical = char.IsLetter(s[0]);
+
+        if (isAlphabetical)
+        {
+            if (shouldUpper)
+                return ToWeirdCaseSecondHelper(builder.Append(s[0].ToString().ToUpper()), s[1..], false);
+
+            return ToWeirdCaseSecondHelper(builder.Append(s[0].ToString().ToLower()), s[1..], true);
+        }
+
+        return ToWeirdCaseSecondHelper(builder.Append(s[0]), s[1..], true);
+    }
 }
